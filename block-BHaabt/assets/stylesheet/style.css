@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Cudtom Style */
+
+body {
+	/* font-size: 16px; */
+	line-height: 1.5;
+	background-color: white;
+}
+
+/* font-family: 'DM Serif Display', serif; */
+
+/* font-family: 'Karla', sans-serif; */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Header */
+
+.header {
+	padding: 10px 0;
+	font-size: 36px;
+	color: #342043;
+	font-weight: 600;
+	font-family: "DM Serif Display", serif;
+}
+
+.header-nav a {
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #877d91;
+	margin-left: 30px;
+	font-weight: 600;
+	font-family: "Karla", sans-serif;
+}
+.view-plans {
+	border: 1px solid #7f7983;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* Hero */
+
+.hero {
+	background-color: #342043;
+	padding: 90px 0;
+}
+
+.title {
+	width: 40%;
+}
+
+hr {
+	width: 180px;
+	color: #fff;
+	margin-left: 5px;
+}
+
+h2 {
+	font-size: 56px;
+	font-weight: 700px;
+	text-transform: capitalize;
+	font-family: "DM Serif Display", serif;
+	color: #fff;
+}
+
+.hero-para {
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 40px;
+}
+
+.view-plan {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 15px 15px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-family: "Karla", sans-serif;
+	font-size: 20px;
+}
+
+.title-img {
+	position: absolute;
+	top: 130px;
+}
+
+.article {
+	width: 47%;
+}
+
+.article-img {
+	padding-top: 170px;
+	padding-bottom: 140px;
+}
+
+h3 {
+	font-size: 44px;
+	font-family: "DM Serif Display", serif;
+	font-weight: 500;
+	color: #0b0632;
+}
+
+.article-para {
+	padding-bottom: 40px;
+	font-size: 20px;
+	color: #342043;
+}
+
+.know-more {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 24px;
+	border: 1px solid #5f4170;
+	padding: 15px 15px;
+	border-radius: 5px;
+}
+
+.h3 {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.gear {
+	font-size: 24px;
+	padding: 10px;
+	background-color: #766db3;
+	border-radius: 51%;
+}
+
+h4 {
+	font-size: 28px;
+	color: #0b0632;
+	font-weight: 600;
+	padding-top: 30px;
+}
+
+p {
+	color: #342043;
+}
+
+.work-section {
+	background-color: #342043;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+
+.about-work {
+	color: #fff;
+	width: 35%;
+	font-size: 48px;
+	padding: 60px 60px;
+}
+
+.work-section nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-family: "Karla", sans-serif;
+	margin-right: 60px;
+	border: 1px solid #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.social-media-nav a {
+	font-size: 30px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.seprate {
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+nav a {
+	color: #8e69ac;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 30px;
+	font-family: "Karla", sans-serif;
+}
+
+/* Footer */
+
+.footer-nav {
+	border-top: 1px solid #8e69ac;
+	padding: 20px 0;
+}
+
+.footer {
+	background-color: #342043;
+	padding: 20px 0;
+	color: rgb(207, 183, 183);
+	font-size: 20px;
+	text-align: center;
+}
